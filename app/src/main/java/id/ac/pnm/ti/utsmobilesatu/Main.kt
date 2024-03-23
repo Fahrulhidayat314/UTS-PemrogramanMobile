@@ -6,10 +6,10 @@ import id.ac.pnm.ti.utsmobilesatu.Club.recap
 
 fun main() {
     // Inisialisasi mutableList dan tambah data List
-    val clubs= mutableListOf(Club("Liverpoll",19,8,9,6,3))
+    val clubs= mutableListOf(Club("Liverpool",19,8,10,6,3))
     clubs.add(Club("Man Utd", 20,12,6,3,1))
-    clubs.add(Club("Chelsea", 6,6,2,3,2))
-    clubs.add(Club("Man City", 8,8,8,0,0))
+    clubs.add(Club("Chelsea", 6,8,5,3,2))
+    clubs.add(Club("Man City", 9,8,8,1,0))
     clubs.add(Club("Arsenal", 13,14,2,0,0))
 
     // Passing a named function ::sortByNumberTrophyTotal
